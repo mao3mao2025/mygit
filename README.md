@@ -13,7 +13,10 @@
 ## 2.如果我想从远程仓库拉取一个本地版本库没有的分支如何实现？
 	* 在本地仓库创建一个同名仓库：git branch test
 	* 绑定本地仓库与远程仓库的关系:git branch --set-upstream-to=origin/test test(可在任意分支执行)
-		
+	上面两部也可以合并成一步：
+		git checkout -b test origin/test:在本地创建一个test分支，并与远程仓库中的分支关联
+	* 在test分支中拉取远程仓库：git pull
+	
 
 	
 
