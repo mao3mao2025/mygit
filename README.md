@@ -17,6 +17,9 @@
 		git checkout -b test origin/test:在本地创建一个test分支，并与远程仓库中的分支关联
 	* 在test分支中拉取远程仓库：git pull
 	
+## 3.删除远程分支test1：git push origin -d test1
+## 4.在远程仓库创建一个分支：git push origin test:test1(NOTE：同时还会将本地分支test推送到远程仓库)
+
 
 	
 
