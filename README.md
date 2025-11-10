@@ -10,5 +10,10 @@
 		* 拉取当前所在分支上新的commit
 		* 追踪其他分支是否有新的commit
 
+## 2.如果我想从远程仓库拉取一个本地版本库没有的分支如何实现？
+	* 在本地仓库创建一个同名仓库：git branch test
+	* 绑定本地仓库与远程仓库的关系:git branch --set-upstream-to=origin/test test(可在任意分支执行)
+		
 
+	
 
