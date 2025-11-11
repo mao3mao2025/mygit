@@ -31,6 +31,18 @@
 ## 10.`git tag V1.1.0`	创建一个轻量级标签 指向当前最新的一个commit
 ## 11.`git tag -a V1.1.0 -m "message" `"创建一个带注释的标签,会创建一个tag对象，该标签指向该tag对象，该tag对象指向最新的commit对象" 
 
+## 12.上传标签到远程
+1.`git push origin v1.0.0`上传一个本地标签v1.0.0到远程仓库
+2.`git push origin v1.0.0 v1.1.0`上传v1.0.0 & v1.1.0到远程仓库
+3.`git push origin --tags`上传本地所有标签到远程仓库
+
+## 13.删除标签
+1.删除本地标签：`git tag -d v1.0.0`
+2.删除远程标签：`git push origin refs/tags/v1.0.0` ** 最好指定标签前缀：refs/tags/ **
+
+## 14.查看标签详细信息
+1.`git show v1.0.0`
+
 
 
 	
