@@ -38,7 +38,7 @@
 
 ## 13.删除标签
 1. 删除本地标签：`git tag -d v1.0.0`
-2. 删除远程标签：`git push origin refs/tags/v1.0.0` ** 最好指定标签前缀：refs/tags/ **
+2. 删除远程标签：`git push origin refs/tags/v1.0.0`  **最好指定标签前缀：refs/tags/**
 
 ## 14.查看标签详细信息
 1.`git show v1.0.0`
