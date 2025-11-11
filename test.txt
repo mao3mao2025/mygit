@@ -1,2 +1,0 @@
-hello world!
-在任何一个分支执行git pull是否会拉取所有的分支并合并？
