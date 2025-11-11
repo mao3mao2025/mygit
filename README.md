@@ -28,6 +28,8 @@
 ## 8.执行git stash保存的记录：`git stash pop`(会删除相应的记录，且执行的是第一条)
 ## 9.执行git stash保存的记录：`git stash apply`(不会删除记录，且执行的是第一条)
 
+## 10.`git tag V1.1.0`	创建一个轻量级标签 指向当前最新的一个commit
+## 11.`git tag -a V1.1.0 -m "message" `"创建一个带注释的标签,会创建一个tag对象，该标签指向该tag对象，该tag对象指向最新的commit对象" 
 
 
 
